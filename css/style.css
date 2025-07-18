@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.days,.times,.dates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px #000;
+    color: #fff;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.times,.dates{
+    padding: 5px 10px;
+}
+
+.days .day{
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.times .time{
+    margin: 0 5px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.dates .date{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 0;
+}
